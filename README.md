@@ -29,12 +29,12 @@ Clinical data
 Images
 Images are stored in the image folder, following the format: `[patient_id].npz`. Each .npz file contains both scan and mask (3-d arrays), accessible by :
 
-
+```bash 
 import numpy as np
 archive = np.load('patient_000.npz')
 scan = archive['scan']
 mask = archive['mask']
-
+```
 
 
 Radiomics features
@@ -46,35 +46,20 @@ Clinical data contains basic meta-information for each patient. Namely, each pat
 Outputs
 Outputs must be positive floats which represent the predicted survival time in days. The file `train/output.csv` simply contains two columns, indexed by patient id: one column represents the observed time to event, while the other represents the censorship (1=event observed is death, 0=event observed is the last time patient was seen alive, the patient then escaped the study).
 
-
+```bash 
 import pandas as pd
 train_output = pd.read_csv( 'train/output.csv', index_col=0)
 p0 = train_output.loc[202]
 print(p0.Event) # prints 1 or 0
 print(p0.SurvivalTime)
 # prints time to event (time to death or time to last known alive) in days
-
+```
 
 Solutions file on test input data submitted by participants shall follow the same format as the train output file with a nan-filled event column . This empty column is mandatory since input target and output predictions should follow the exact same format. Both datasets were mixed and shuffled before being split into three subsets:
 
 Training set (70%)
 Public test set (15%)
 Private test set (15%)
-
-In total the training set contains
-Train set
-Test set 1
-(public)
-Test set 2
-(private)
-Patients from dataset 1	
-199
-42
-43
-Patients from dataset 2	
-101
-20
-20
 
 
 We would like to highlight the fact that 63 patients is a really small test set and therefore variability between the two test sets can be expected, especially if you are overfitting the first test set by using a lot of submissions. However, the small size of our datasets is a real life problem that we have to deal with and being able to overcome this barrier is a crucial point. A second very important source of poor transfer of performance between test sets is the disparity between centers. It would be wise to take into account that two centers, potentially really heterogenous, are present in the challenge.
