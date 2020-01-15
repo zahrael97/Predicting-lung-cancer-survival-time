@@ -34,7 +34,7 @@ import numpy as np
 archive = np.load('patient_000.npz')
 scan = archive['scan']
 mask = archive['mask']
-# scan.shape equals mask.shape
+
 
 
 Radiomics features
