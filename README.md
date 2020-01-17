@@ -65,3 +65,16 @@ Private test set (15%)
 
 
 We would like to highlight the fact that 63 patients is a really small test set and therefore variability between the two test sets can be expected, especially if you are overfitting the first test set by using a lot of submissions. However, the small size of our datasets is a real life problem that we have to deal with and being able to overcome this barrier is a crucial point. A second very important source of poor transfer of performance between test sets is the disparity between centers. It would be wise to take into account that two centers, potentially really heterogenous, are present in the challenge.
+# Performances
+
+
+The baseline proposed reaches a Concordance Index (CI) of 0.691 on the public test set.
+
+Metric
+The concordance index (C-index) is a generalization of the Area Under the Curve (or AUC) which can take into account censored data. This metric is commonly used to evaluate and compare predictive models with censored data. The C-index evaluates whether predicted survival times are ranked in the same order as their true survival time. Indeed because of censored data, the actual ordering of patient survival is not always available. A pair of patient is said “admissible” if patients can be ordered. The pair (i, j)(i,j) is admissible if patients ii and jj are not censored, or if patient ii dies at t = kt=k and patient jj is censored at t > kt>k . On the contrary, if both patients are censored or if patient ii died at t = k′t=k′ and patient jj is censored at t < k′t<k′ , the pair is not admissible. Indeed in that last case, patient jj may or may not have died before k’k’ .
+
+
+ 
+where concordant pairs are the admissible pairs of patients that are correctly classified. A score of 0.5 represents a random prediction and a score of 1.0 represents perfect predictions.
+
+Note that the C-index does not compare absolute predicted survival times like usual regression metrics, but only relative survival times, by comparing ordering of the predictions and ordering of the true survival times.
