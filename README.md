@@ -71,10 +71,6 @@ We would like to highlight the fact that 63 patients is a really small test set 
 The baseline proposed reaches a Concordance Index (CI) of 0.691 on the public test set.
 
 Metric
-The concordance index (C-index) is a generalization of the Area Under the Curve (or AUC) which can take into account censored data. This metric is commonly used to evaluate and compare predictive models with censored data. The C-index evaluates whether predicted survival times are ranked in the same order as their true survival time. Indeed because of censored data, the actual ordering of patient survival is not always available. A pair of patient is said “admissible” if patients can be ordered. The pair (i, j)(i,j) is admissible if patients ii and jj are not censored, or if patient ii dies at t = kt=k and patient jj is censored at t > kt>k . On the contrary, if both patients are censored or if patient ii died at t = k′t=k′ and patient jj is censored at t < k′t<k′ , the pair is not admissible. Indeed in that last case, patient jj may or may not have died before k’k’ .
-
-
- 
-where concordant pairs are the admissible pairs of patients that are correctly classified. A score of 0.5 represents a random prediction and a score of 1.0 represents perfect predictions.
+The concordance index (C-index) is a generalization of the Area Under the Curve (or AUC) which can take into account censored data. This metric is commonly used to evaluate and compare predictive models with censored data. The C-index evaluates whether predicted survival times are ranked in the same order as their true survival time. 
 
 Note that the C-index does not compare absolute predicted survival times like usual regression metrics, but only relative survival times, by comparing ordering of the predictions and ordering of the true survival times.
