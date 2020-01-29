@@ -19,12 +19,13 @@ absolutly nothing ... As a beginner in Machine Learning This was super exciting 
  
  account? How do particular circumstances or characteristics increase or decrease the probability of survival? 
  ```
- Now Let's go to Methods 
+# Methods 
  I choosed Lifelines because it is simple to implement but I will work on Deep learning Shortly since I am kearning it,
 there is a lot of methods like  :
      LIFE-TABLE METHOD 
      KAPLAN-MEIER METHOD
      LOG-RANK TEST
+using tools like scikit-Survival library, Lifelines or Deep learning Models .
 ## Exploring Data 
 For each patient, we provided four inputs:
 
