@@ -25,3 +25,4 @@ there is a lot of methods like  :
      LIFE-TABLE METHOD 
      KAPLAN-MEIER METHOD
      LOG-RANK TEST
+## Exploring Data 
