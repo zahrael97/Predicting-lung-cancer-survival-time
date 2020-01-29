@@ -26,3 +26,10 @@ there is a lot of methods like  :
      KAPLAN-MEIER METHOD
      LOG-RANK TEST
 ## Exploring Data 
+For each patient, we provided four inputs:
+
+Images (one scan and one mask per patient): we furnish crops of both the scan and the mask, centered around the tumor region. Those crops are of fixed 92^3 mm^3 size.
+Radiomics features (an ensemble of 53 quantitative features per patient, extracted from the scan).
+Clinical data
+Images
+Images are stored in the image folder, following the format: `[patient_id].npz`. Each .npz file contains both scan and mask (3-d arrays)
