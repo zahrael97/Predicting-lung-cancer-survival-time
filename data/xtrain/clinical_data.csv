@@ -1,0 +1,301 @@
+PatientID,Histology,Mstage,Nstage,SourceDataset,Tstage,age
+202,Adenocarcinoma,0,0,l2,2,66
+371,large cell,0,2,l1,4,64.5722
+246,squamous cell carcinoma,0,3,l1,2,66.0452
+240,nos,0,2,l1,3,59.3566
+284,squamous cell carcinoma,0,3,l1,4,71.0554
+348,squamous cell carcinoma,0,2,l1,2,65.0212
+384,squamous cell carcinoma,0,0,l1,3,78.7105
+244,Adenocarcinoma,0,0,l2,1,70
+100,adenocarcinoma,0,0,l1,4,74.4504
+173,adenocarcinoma,0,2,l1,4,53.0842
+372,large cell,0,2,l1,2,48.627
+083,adenocarcinoma,0,3,l1,2,63.7454
+423,Squamous cell carcinoma,0,2,l2,2,80
+197,Adenocarcinoma,0,1,l2,1,78
+149,squamous cell carcinoma,0,0,l1,2,83.989
+394,Squamous cell carcinoma,0,0,l2,3,77
+185,Squamous cell carcinoma,0,0,l2,1,73
+316,adenocarcinoma,0,3,l1,2,70.3518
+225,squamous cell carcinoma,0,0,l1,2,85.4949
+102,nos,3,3,l1,4,71.4743
+063,nan,0,0,l1,1,65.1143
+249,nos,0,0,l1,2,74.82
+178,Adenocarcinoma,0,0,l2,1,66
+135,squamous cell carcinoma,0,0,l1,1,61.2485
+349,large cell,0,2,l1,1,62.6639
+340,squamous cell carcinoma,0,2,l1,3,49.3443
+031,Adenocarcinoma,1,2,l2,4,51
+108,large cell,0,3,l1,2,65.117
+304,Adenocarcinoma,0,0,l2,1,81
+164,nan,0,0,l1,1,67.2745
+421,large cell,0,2,l1,4,64.846
+329,large cell,0,3,l1,2,62.5654
+171,large cell,0,2,l1,2,83.499
+143,Adenocarcinoma,0,0,l2,4,53
+037,squamous cell carcinoma,0,0,l1,2,75.6934
+227,Adenocarcinoma,0,0,l2,1,65
+133,nos,0,2,l1,3,59.4141
+180,Adenocarcinoma,0,0,l2,1,72
+053,Adenocarcinoma,0,0,l2,2,68
+285,Adenocarcinoma,0,0,l2,2,83
+079,nos,0,0,l1,1,nan
+094,Adenocarcinoma,0,0,l2,2,87
+189,nan,0,0,l1,2,76.5452
+222,NSCLC NOS (not otherwise specified),0,0,l2,1,64
+359,Adenocarcinoma,0,0,l2,2,68
+114,adenocarcinoma,0,3,l1,4,60.0383
+235,adenocarcinoma,0,3,l1,4,45.7276
+338,Adenocarcinoma,0,0,l2,1,59
+137,large cell,0,2,l1,1,62.9185
+117,Adenocarcinoma,0,0,l2,1,80
+325,squamous cell carcinoma,0,0,l1,4,62.5955
+181,nan,0,0,l1,1,73.8658
+123,Adenocarcinoma,0,2,l2,1,86
+333,Squamous cell carcinoma,0,0,l2,2,80
+210,large cell,0,2,l1,3,78.9213
+378,squamous cell carcinoma,0,0,l1,4,62.4476
+380,Adenocarcinoma,0,0,l2,2,46
+233,large cell,0,2,l1,2,83.4004
+250,large cell,3,3,l1,3,73.0595
+048,Adenocarcinoma,0,1,l2,3,56
+193,Adenocarcinoma,0,0,l2,1,73
+070,Adenocarcinoma,0,0,l2,2,68
+262,Adenocarcinoma,0,2,l2,2,67
+335,Adenocarcinoma,0,0,l2,2,78
+341,nan,0,0,l1,1,49.5113
+147,Adenocarcinoma,0,0,l2,2,63
+323,Adenocarcinoma,0,0,l2,1,79
+224,squamous cell carcinoma,0,0,l1,3,70.4723
+252,nos,0,0,l1,2,80.1999
+334,Adenocarcinoma,0,0,l2,1,67
+327,large cell,0,2,l1,1,61.7084
+272,squamous cell carcinoma,0,1,l1,3,73.8864
+418,nos,0,2,l1,4,52.7118
+416,large cell,0,2,l1,2,73.0897
+195,Adenocarcinoma,0,0,l2,2,65
+356,squamous cell carcinoma,0,1,l1,1,78.7789
+116,large cell,0,2,l1,4,76.7283
+424,squamous cell carcinoma,0,0,l1,4,64.3313
+226,nos,0,3,l1,2,77.4018
+039,Adenocarcinoma,0,0,l2,3,65
+030,large cell,0,2,l1,2,85.1116
+160,nan,0,0,l1,1,60.2793
+242,Adenocarcinoma,0,0,l2,1,62
+029,squamous cell carcinoma,0,0,l1,2,68.4736
+086,Squamous cell carcinoma,0,0,l2,4,67
+103,nos,0,2,l1,2,58.1656
+257,Adenocarcinoma,0,0,l2,1,71
+266,Adenocarcinoma,0,0,l2,1,71
+175,adenocarcinoma,0,2,l1,2,71.666
+264,adenocarcinoma,0,0,l1,2,79.8877
+303,adenocarcinoma,0,0,l1,1,74.6092
+331,squamous cell carcinoma,0,0,l1,1,70.1684
+111,adenocarcinoma,0,3,l1,2,71.2936
+367,nos,0,3,l1,2,76.3395
+403,Adenocarcinoma,0,0,l2,1,73
+310,nos,0,0,l1,2,58.809
+078,squamous cell carcinoma,0,2,l1,4,73.4209
+388,nan,0,2,l1,5,nan
+151,Adenocarcinoma,0,2,l2,1,70
+109,squamous cell carcinoma,0,0,l1,1,68.0164
+172,Adenocarcinoma,0,2,l2,2,81
+134,large cell,0,2,l1,4,70.601
+208,squamous cell carcinoma,0,1,l1,2,70.8802
+399,squamous cell carcinoma,0,0,l1,1,69.41
+017,large cell,0,3,l1,4,64.1916
+350,nos,0,0,l1,1,70.0151
+061,nos,0,3,l1,1,70.2368
+308,nos,0,3,l1,2,62.141
+237,squamous cell carcinoma,0,2,l1,4,nan
+355,large cell,0,1,l1,2,nan
+251,Adenocarcinoma,0,2,l2,1,46
+294,large cell,0,0,l1,2,nan
+166,large cell,0,0,l1,2,53.0513
+090,nos,0,0,l1,4,56.8214
+390,Adenocarcinoma,0,0,l2,2,70
+002,adenocarcinoma,0,0,l1,3,59.4223
+231,nan,1,2,l1,4,nan
+258,Adenocarcinoma,0,0,l2,2,74
+107,nos,0,2,l1,3,76.397
+022,large cell,0,0,l1,1,82.5298
+212,large cell,0,2,l1,2,77.399
+110,squamous cell carcinoma,0,0,l1,2,78.9049
+253,large cell,0,2,l1,4,68.0931
+397,nos,0,0,l1,3,81.0787
+130,Adenocarcinoma,0,1,l2,2,64
+152,nan,0,0,l1,1,nan
+023,Adenocarcinoma,0,2,l2,3,43
+051,squamous cell carcinoma,0,0,l1,4,78.6886
+236,large cell,0,0,l1,1,78.0589
+067,nan,0,3,l1,1,nan
+024,adenocarcinoma,0,3,l1,1,62.2505
+138,nos,0,2,l1,1,nan
+091,Squamous cell carcinoma,0,0,l2,1,70
+121,Adenocarcinoma,0,0,l2,1,66
+357,squamous cell carcinoma,0,2,l1,2,77.2567
+124,nos,0,0,l1,2,75.4935
+145,large cell,0,3,l1,4,54.7242
+144,large cell,0,2,l1,2,59.2936
+275,Squamous cell carcinoma,0,0,l2,3,72
+115,Adenocarcinoma,0,0,l2,1,67
+126,large cell,0,3,l1,1,74.7433
+042,Adenocarcinoma,0,0,l2,3,69
+282,nos,0,2,l1,1,43.2827
+343,large cell,0,2,l1,2,75.9233
+186,large cell,0,3,l1,3,61.1937
+406,Adenocarcinoma,0,0,l2,1,61
+204,large cell,0,2,l1,4,61.7194
+314,Adenocarcinoma,0,0,l2,1,73
+382,squamous cell carcinoma,0,0,l1,4,72.0684
+353,squamous cell carcinoma,0,2,l1,1,66.9158
+007,squamous cell carcinoma,0,0,l1,4,60.7283
+336,adenocarcinoma,0,3,l1,2,64.5859
+268,nos,0,0,l1,1,76.4928
+018,nan,0,0,l1,1,nan
+076,squamous cell carcinoma,0,3,l1,2,60.6872
+196,large cell,0,0,l1,1,76.4846
+045,nos,0,0,l1,1,66.8665
+101,nan,0,1,l1,2,69.6701
+004,squamous cell carcinoma,0,0,l1,3,84.5722
+259,squamous cell carcinoma,0,0,l1,2,78.601
+309,large cell,3,2,l1,4,53.0842
+313,large cell,0,0,l1,4,53.2293
+305,Adenocarcinoma,0,0,l2,1,62
+385,nos,0,2,l1,4,65.3963
+025,Adenocarcinoma,0,0,l2,1,80
+043,Adenocarcinoma,0,0,l2,2,84
+269,adenocarcinoma,0,1,l1,2,nan
+389,nan,0,0,l1,1,69.3525
+092,nos,0,0,l1,1,nan
+361,squamous cell carcinoma,0,0,l1,4,58.1985
+021,squamous cell carcinoma,0,2,l1,3,71.2553
+098,Squamous cell carcinoma,0,0,l2,2,76
+122,large cell,0,0,l1,1,71.7235
+184,Adenocarcinoma,0,0,l2,1,62
+321,Adenocarcinoma,0,0,l2,1,85
+318,squamous cell carcinoma,0,1,l1,1,72.6982
+174,Squamous cell carcinoma,0,0,l2,1,72
+238,nan,0,0,l1,1,57.295
+183,Squamous cell carcinoma,0,0,l2,2,83
+044,large cell,0,2,l1,2,65.4839
+106,nos,0,0,l1,2,79.6523
+383,large cell,0,2,l1,2,73.9877
+142,adenocarcinoma,0,3,l1,2,59.7919
+026,squamous cell carcinoma,0,2,l1,4,62.4011
+347,nan,0,0,l1,1,79.4333
+057,Adenocarcinoma,0,2,l2,2,74
+300,squamous cell carcinoma,0,0,l1,3,77.5606
+315,large cell,0,0,l1,1,80.7228
+139,large cell,0,3,l1,4,65.2895
+052,squamous cell carcinoma,0,0,l1,3,87.0308
+277,Squamous cell carcinoma,0,0,l2,3,69
+020,squamous cell carcinoma,0,2,l1,2,65.0979
+286,Squamous cell carcinoma,0,2,l2,1,67
+033,nos,0,3,l1,4,63.1567
+417,nos,0,0,l1,4,75.1075
+288,Adenocarcinoma,0,0,l2,1,76
+317,adenocarcinoma,0,2,l1,1,79.6906
+014,large cell,0,3,l1,4,79.039
+400,squamous cell carcinoma,0,3,l1,2,64.1697
+328,nan,0,0,l1,2,78.308
+095,Squamous cell carcinoma,0,0,l2,1,70
+015,nos,0,2,l1,2,74.9076
+040,large cell,0,0,l1,3,55.447
+150,nos,0,0,l1,2,79.6632
+035,large cell,0,0,l1,2,59.0329
+176,squamous cell carcinoma,0,0,l1,4,64.9555
+216,squamous cell carcinoma,0,3,l1,2,60.0986
+088,Adenocarcinoma,0,1,l2,2,81
+131,Adenocarcinoma,0,0,l2,2,65
+420,Adenocarcinoma,0,2,l2,1,69
+229,large cell,0,3,l1,2,78.7515
+414,squamous cell carcinoma,0,0,l1,3,77.8836
+248,squamous cell carcinoma,0,2,l1,4,74.8118
+302,large cell,0,2,l1,1,55.9151
+386,Adenocarcinoma,0,0,l2,1,81
+214,nos,0,2,l1,4,49.3415
+082,Adenocarcinoma,0,1,l2,1,78
+256,Squamous cell carcinoma,0,0,l2,1,66
+064,nos,0,0,l1,4,60.4709
+148,Adenocarcinoma,0,0,l2,1,63
+008,nos,0,0,l1,1,82.4093
+283,adenocarcinoma,0,2,l1,2,63.5318
+073,nan,0,3,l1,2,48.3532
+096,large cell,0,0,l1,4,64.8378
+358,large cell,0,3,l1,2,59.2334
+280,Adenocarcinoma,0,0,l2,3,65
+159,squamous cell carcinoma,0,0,l1,2,83.8001
+093,squamous cell carcinoma,0,2,l1,2,72.2026
+068,large cell,0,2,l1,4,56.5969
+330,squamous cell carcinoma,0,0,l1,4,66.0534
+187,Adenocarcinoma,0,2,l2,2,78
+297,Adenocarcinoma,0,0,l2,1,79
+320,large cell,0,0,l1,4,79.102
+255,squamous cell carcinoma,0,2,l1,2,56.1342
+188,large cell,0,1,l1,4,74.0808
+228,nan,0,0,l1,1,nan
+368,Squamous cell carcinoma,0,0,l2,1,72
+395,squamous cell carcinoma,0,2,l1,2,68.961
+393,Adenocarcinoma,0,0,l2,1,77
+247,large cell,0,3,l1,2,70.7762
+218,adenocarcinoma,0,0,l1,2,75.7782
+161,adenocarcinoma,0,2,l1,2,72.8761
+084,Squamous cell carcinoma,0,0,l2,2,70
+346,large cell,0,2,l1,3,47.989
+036,Adenocarcinoma,0,0,l2,3,63
+307,large cell,0,3,l1,2,52.2491
+162,adenocarcinoma,0,2,l1,2,71.6578
+112,squamous cell carcinoma,0,0,l1,2,82.5791
+032,Adenocarcinoma,0,0,l2,1,74
+396,Adenocarcinoma,0,0,l2,2,79
+276,squamous cell carcinoma,0,2,l1,2,66.9733
+163,Adenocarcinoma,0,0,l2,1,74
+211,Adenocarcinoma,0,0,l2,1,57
+392,Adenocarcinoma,0,0,l2,3,63
+345,nos,0,0,l1,2,51.6906
+299,large cell,0,3,l1,2,nan
+290,Adenocarcinoma,1,0,l2,2,64
+077,Adenocarcinoma,0,0,l2,2,84
+003,squamous cell carcinoma,0,3,l1,1,77.0986
+047,Adenocarcinoma,0,0,l2,2,77
+391,Adenocarcinoma,0,0,l2,2,67
+312,squamous cell carcinoma,0,1,l1,2,77.5441
+011,Adenocarcinoma,0,0,l2,1,64
+401,large cell,0,2,l1,2,69.8946
+141,nan,0,0,l1,1,72.7748
+279,Adenocarcinoma,0,1,l2,2,71
+016,nos,0,2,l1,3,69.8645
+263,large cell,0,3,l1,4,42.5133
+154,squamous cell carcinoma,0,2,l1,2,46.5024
+354,NSCLC NOS (not otherwise specified),0,2,l2,3,76
+362,Squamous cell carcinoma,0,0,l2,1,57
+376,nan,0,0,l1,1,68.4356
+373,large cell,0,2,l1,4,63.4689
+422,squamous cell carcinoma,0,0,l1,4,66.1191
+157,squamous cell carcinoma,0,0,l1,1,64.0137
+295,large cell,0,2,l1,2,72.783
+209,Adenocarcinoma,0,0,l2,1,59
+072,Adenocarcinoma,0,0,l2,3,65
+213,nos,0,3,l1,1,43.384
+081,large cell,0,0,l1,1,67.5866
+381,Squamous cell carcinoma,0,0,l2,1,81
+005,nos,0,0,l1,2,71.8439
+105,Adenocarcinoma,0,0,l2,1,68
+306,squamous cell carcinoma,0,0,l1,2,nan
+165,Squamous cell carcinoma,0,0,l2,1,72
+402,large cell,0,0,l1,2,71.9425
+409,Adenocarcinoma,0,0,l2,1,69
+056,squamous cell carcinoma,0,1,l1,2,72.9199
+375,Adenocarcinoma,0,0,l2,1,73
+293,nos,0,3,l1,1,76.1561
+365,adenocarcinoma,0,0,l1,1,80.9637
+221,large cell,0,2,l1,2,50.1958
+069,Adenocarcinoma,0,0,l2,2,75
+058,Adenocarcinoma,0,0,l2,1,62
+089,nos,0,2,l1,4,69.1828
+261,squamous cell carcinoma,0,0,l1,1,87.1266
+298,squamous cell carcinoma,0,0,l1,1,nan
+129,large cell,0,1,l1,3,59.8439
+273,Adenocarcinoma,0,0,l2,1,70
+366,large cell,0,3,l1,2,54.694
