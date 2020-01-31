@@ -5,7 +5,7 @@ The challenge proposed by Owkin is a supervised survival prediction problem: pre
 NSCLC Radiomics (subset of 285 patients)
 NSCLC RadioGenomics(subset of 141 patients)
 # What I know about Survival Analysis ?
-absolutly nothing ... As a beginner in Machine Learning This was super exciting Like How is it possible to predict the remaining living time :o, OKay let's Start by Wikipedia .
+absolutly nothing ... As a beginner in Machine Learning This was super exciting Like How is it possible to predict the remaining living time :o OKay let's Start by Wikipedia .
  ```  
  Survival analysis is a branch of statistics for analyzing the expected duration of time until one or more events happen, such 
  
