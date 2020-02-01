@@ -15,7 +15,7 @@ absolutly nothing ... As a beginner in Machine Learning This was super exciting 
  
  Survival analysis attempts to answer questions such as: what is the proportion of a population which will survive past a 
  
- certain time? Of those that survive, at what rate will they die or fail? Can multiple causes of death or failure be taken into
+certain time? Of those that survive, at what rate will they die or fail? Can multiple causes of death or failure be taken into
  
  account? How do particular circumstances or characteristics increase or decrease the probability of survival? 
  ```
