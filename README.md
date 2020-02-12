@@ -34,4 +34,6 @@ Radiomics features (an ensemble of 53 quantitative features per patient, extract
 Clinical data
 Images
 Images are stored in the image folder, following the format: `[patient_id].npz`. Each .npz file contains both scan and mask (3-d arrays)
+
+
 If you have any question or problem with the code please feel free to contact me on my gmail (zahraelhamraoui1997@gmail.com)
