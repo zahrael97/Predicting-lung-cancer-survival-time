@@ -1,39 +1,26 @@
-# Predicting lung cancer survival time
-predict the survival time of a patient (remaining days to live) from one three-dimensional CT scan (grayscale image) and a set of pre-extracted quantitative imaging features, as well as clinical data.
-# Goal
-The challenge proposed by Owkin is a supervised survival prediction problem: predict the survival time of a patient (remaining days to live) from one three-dimensional CT scan (grayscale image) and a set of pre-extracted quantitative imaging features, as well as clinical data. To each patient corresponds one CT scan, and one binary segmentation mask. The segmentation mask is a binary volume of the same size as the CT scan, except that it is composed of zeroes everywhere there is no tumour, and 1 otherwise. This segmentation mask was built based on annotations from radiologists, who delineated by hand the tumor(s). Refer to the data section for further details of the data. The CT scans and the associated segmentation masks are subsets of two public datasets:
-NSCLC Radiomics (subset of 285 patients)
-NSCLC RadioGenomics(subset of 141 patients)
-# What I know about Survival Analysis ?
-absolutly nothing ... As a beginner in Machine Learning This was super exciting Like How is it possible to predict the remaining living time :o OKay let's Start by Wikipedia .
- ```  
- Survival analysis is a branch of statistics for analyzing the expected duration of time until one or more events happen, such 
- 
- as death in biological organisms and failure in mechanical systems. This topic is called reliability theory or reliability 
- 
- analysis in engineering, duration analysis or duration modelling in economics, and event history analysis in sociology. 
- 
- Survival analysis attempts to answer questions such as: what is the proportion of a population which will survive past a 
- 
-certain time? Of those that survive, at what rate will they die or fail? Can multiple causes of death or failure be taken into
- 
- account? How do particular circumstances or characteristics increase or decrease the probability of survival? 
- ```
-# Methods 
- I choosed Lifelines because it is simple to implement but I will work on Deep learning Shortly since I am kearning it,
-there is a lot of methods like  :
-     LIFE-TABLE METHOD 
-     KAPLAN-MEIER METHOD
-     LOG-RANK TEST
-using tools like scikit-Survival library, Lifelines or Deep learning Models .
-## Exploring Data 
-For each patient, we provided four inputs:
+# Survival analysis
+Survival analysis is the analysis of time-to-event data. Such data describe the length of time from a time origin to an endpoint of interest. For example, individuals might be followed from birth to the onset of some disease, or the survival time after the diagnosis of some disease might be studied. Survival analysis methods are usually used to analyze data collected prospectively in time, such as data from a prospective cohort study or data collected for a clinical trial.
+The time origin must be specified such that individuals are as much as possible on an equal footing. For example, if the survival time of patients with a particular type of cancer is being studied, the time origin could be chosen to be the time point of diagnosis of that type of cancer. Equally importantly, the endpoint or event of interest should be appropriately specified, such that the times considered are well-defined. In the above example, this could be death due to cancer studied. Then the length of time from the time origin to the endpoint could be calculated.
+One of the reasons why survival analysis requires ‘special’ techniques is the possibility of not observing the event of interest for some individuals. For example, individuals may drop out of a study, or they might have a different event, such as in the above example death due to an accident, which is not part of the endpoint of interest. Another possibility is that there might be a time point at which the study finishes and thus if any individuals have not had their event yet, their event time will not have been observed. These incomplete observations cannot be ignored, but need to be handled differently. This is called censoring. Another feature of survival data is that distributions are often skewed (asymmetric) and thus simple techniques based on the normal distribution cannot be directly used.
+The objectives of survival analysis include the analysis of patterns of event times, the comparison of distributions of survival times in different groups of individuals, and examining whether and by how much some factors affect the risk of an event of interest.
+# Survival Function
+The Survival Function is given by,
 
-Images (one scan and one mask per patient): we furnish crops of both the scan and the mask, centered around the tumor region. Those crops are of fixed 92^3 mm^3 size.
-Radiomics features (an ensemble of 53 quantitative features per patient, extracted from the scan).
-Clinical data
-Images
-Images are stored in the image folder, following the format: `[patient_id].npz`. Each .npz file contains both scan and mask (3-d arrays)
+Survival Function defines the probability that the event of interest has not occurred at time t. It can also be interpreted as the probability of survival after time t [7]. Here, T is the random lifetime taken from the population and it cannot be negative. Note that S(t) is between zero and one (inclusive), and S(t) is a non-increasing function of t[7].
+Hazard Function
+The Hazard Function also called the intensity function, is defined as the probability that the subject will experience an event of interest within a small time interval, provided that the individual has survived until the beginning of that interval [2]. It is the instantaneous rate calculated over a time period and this rate is considered constant [13]. It can also be considered as the risk of experiencing the event of interest at time t. It is the number of subjects experiencing an event in the interval beginning at time t divided by the product of the number of subjects surviving at time t and interval width[2].
+Since the probability of a continuous random variable to equal a particular value is zero. That’s why we consider the probability of the event happening at a particular interval of time from T till (T + ΔT). Since our goal is to find the risk of an event and we don’t want the risk to get bigger as the time interval ΔT gets bigger. Thus, in order to adjust for that, we divide the equation by ΔT. This scales the equation by ΔT[14]. The equation of the Hazard Rate is given as:
 
-
-If you have any question or problem with the code please feel free to contact me on my gmail (zahraelhamraoui1997@gmail.com)
+The limit ΔT approaches zero implies that our goal is to measure the risk of an event happening at a particular point in time. So, taking the limit ΔT approaches zero yields an infinitesimally small period of time [14].
+One thing to point out here is that the Hazard is not a probability. This is because, even though we have the probability in the numerator, but the ΔT in the denominator could result in a value that is greater than one.
+Censoring
+It is a type of missing data problem common in survival analysis. Other popular comparison methods, such as linear regression and t-tests do not accommodate censoring. This makes survival analysis attractive for data from randomized clinical studies.
+In an ideal scenario, both the birth and death rates of a patient is known, which means the lifetime is known.
+Right censoring occurs when the ‘death’ is unknown, but it is after some known date. e.g. The ‘death’ occurs after the end of the study, or there was no follow-up with the patient.
+Left censoring occurs when the lifetime is known to be less than a certain duration. e.g. Unknown time of initial infection exposure when first meeting with a patient.
+Due to the presence of the censoring in survival data, the standard evaluation metrics for regression such as the root of mean squared error and ܴ ଶ are not suitable for measuring the performance in survival analysis. Three specialized evaluation metrics for survival analysis:
+## 1- Concordance index (C-index) what should be used in the challenge
+## 2- Brier score
+## 3- Mean absolute error
+# Concordance Index (C‐Index)
+It is a rank order statistic for predictions against true outcomes and is defined as the ratio of the concordant pairs to the total comparable pairs. For a binary outcome, C-index is identical to the area under the ROC curve (AUC).
