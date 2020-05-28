@@ -14,13 +14,18 @@ The Survival Function is given by,
 
 Survival Function defines the probability that the event of interest has not occurred at time t. It can also be interpreted as the probability of survival after time t [7]. Here, T is the random lifetime taken from the population and it cannot be negative. Note that S(t) is between zero and one (inclusive), and S(t) is a non-increasing function of t[7].
 Hazard Function
-The Hazard Function also called the intensity function, is defined as the probability that the subject will experience an event of interest within a small time interval, provided that the individual has survived until the beginning of that interval [2]. It is the instantaneous rate calculated over a time period and this rate is considered constant [13]. It can also be considered as the risk of experiencing the event of interest at time t. It is the number of subjects experiencing an event in the interval beginning at time t divided by the product of the number of subjects surviving at time t and interval width[2].
+
+The Hazard Function also called the intensity function, is defined as the probability that the subject will experience an event of interest within a small time interval, provided that the individual has survived until the beginning of that interval [2]. It is the instantaneous rate calculated over a time period and this rate is considered constant [13]. 
+It can also be considered as the risk of experiencing the event of interest at time t. It is the number of subjects experiencing an event in the interval beginning at time t divided by the product of the number of subjects surviving at time t and interval width[2].
+
 Since the probability of a continuous random variable to equal a particular value is zero. That’s why we consider the probability of the event happening at a particular interval of time from T till (T + ΔT). Since our goal is to find the risk of an event and we don’t want the risk to get bigger as the time interval ΔT gets bigger. Thus, in order to adjust for that, we divide the equation by ΔT. This scales the equation by ΔT[14]. The equation of the Hazard Rate is given as:
 
 The limit ΔT approaches zero implies that our goal is to measure the risk of an event happening at a particular point in time. So, taking the limit ΔT approaches zero yields an infinitesimally small period of time [14].
-One thing to point out here is that the Hazard is not a probability. This is because, even though we have the probability in the numerator, but the ΔT in the denominator could result in a value that is greater than one.
+One thing to point out here is that the Hazard is not a probability. 
+This is because, even though we have the probability in the numerator, but the ΔT in the denominator could result in a value that is greater than one.
 Censoring
-It is a type of missing data problem common in survival analysis. Other popular comparison methods, such as linear regression and t-tests do not accommodate censoring. This makes survival analysis attractive for data from randomized clinical studies.
+It is a type of missing data problem common in survival analysis. Other popular comparison methods, such as linear regression and t-tests do not accommodate censoring. 
+This makes survival analysis attractive for data from randomized clinical studies.
 In an ideal scenario, both the birth and death rates of a patient is known, which means the lifetime is known.
 Right censoring occurs when the ‘death’ is unknown, but it is after some known date. e.g. The ‘death’ occurs after the end of the study, or there was no follow-up with the patient.
 Left censoring occurs when the lifetime is known to be less than a certain duration. e.g. Unknown time of initial infection exposure when first meeting with a patient.
@@ -32,8 +37,11 @@ Due to the presence of the censoring in survival data, the standard evaluation m
 It is a rank order statistic for predictions against true outcomes and is defined as the ratio of the concordant pairs to the total comparable pairs. For a binary outcome, C-index is identical to the area under the ROC curve (AUC).
 # Kaplan–Meier estimator
 
-Also known as the product-limit estimator is a non-parametric statistic used to estimate the survival function from lifetime data. In medical research, it is often used to measure the fraction of patients living for a certain amount of time after treatment. In other fields, Kaplan–Meier estimators may be used to measure the length of time people remain unemployed after a job loss, the time-to-failure of machine parts, or how long fleshy fruits remain on plants before they are removed by frugivores. The estimator is named after Edward L. Kaplan and Paul Meier, who each submitted similar manuscripts to the Journal of the American Statistical Association. The journal editor, John Tukey, convinced them to combine their work into one paper, which has been cited about 55,000 times since its publication.
-Proportional hazards
+Also known as the product-limit estimator is a non-parametric statistic used to estimate the survival function from lifetime data. 
+In medical research, it is often used to measure the fraction of patients living for a certain amount of time after treatment. 
+In other fields, Kaplan–Meier estimators may be used to measure the length of time people remain unemployed after a job loss, the time-to-failure of machine parts, or how long fleshy fruits remain on plants before they are removed by frugivores. The estimator is named after Edward L. 
+Kaplan and Paul Meier, who each submitted similar manuscripts to the Journal of the American Statistical Association. The journal editor, John Tukey, convinced them to combine their work into one paper, which has been cited about 55,000 times since its publication.
+# Proportional hazards
 
 Are a class of survival models in statistics. Survival models relate the time that passes, before some event occurs, to one or more covariates that may be associated with that quantity of time. In a proportional hazards model, the unique effect of a unit increase in a covariate is multiplicative with respect to the hazard rate. For example, taking a drug may halve one’s hazard rate for a stroke occurring, or, changing the material from which a manufactured component is constructed may double its hazard rate for failure. Other types of survival models such as accelerated failure time models do not exhibit proportional hazards. The accelerated failure time model describes a situation where the biological or mechanical life history of an event is accelerated (or decelerated).
 # Tools
